@@ -23,7 +23,7 @@ jobs:
           username: ${{secrets.DOCKER_USER}}
           password: ${{secrets.DOCKER_PASS}}
       - name: Push Image
-        runs: docker push $IMAGE_NAME
+        run: docker push $IMAGE_NAME
 
 
     deploy-2048:
