@@ -7,8 +7,8 @@ on:
 
 
 env:
-  IMAGE_NAME: "${{secrets.DOCKER_USER}}/2048-arel"
-  DOCKER_USER: "${{secrets.DOCKER_USER}}"
+  IMAGE_NAME: "${{ secrets.DOCKER_USER }}/2048-arel"
+  DOCKER_USER: "${{ secrets.DOCKER_USE R}}"
 
 jobs:
   build-push-image:
